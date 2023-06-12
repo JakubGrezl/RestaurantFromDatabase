@@ -9,10 +9,10 @@ namespace RestaurantFromDatabase
 {
     public class Zidle
     {
-        int id;
-        Vector2 pozition;
-        int size;
-        int fk_table;
+        public int id;
+        public Vector2 pozition;
+        public int size;
+        public int fk_table;
 
         public Zidle(int id, Vector2 pozition, int size, int fk_table)
         {
